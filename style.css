@@ -152,8 +152,10 @@ btn:hover {
 .service-card h3 {
     padding: 15px;
     font-size: 1.3rem;
+    color: #000;
 }
 .service-card p {
+    text-align: center;
     padding: 0 15px 20px;
     color: #555;
 }
