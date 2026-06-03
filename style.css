@@ -3,8 +3,9 @@ style.css
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #555;
+   
 }
+body{background-color: #000000;}
 .hero {
     height: 100vh;
     background: url(./imagenestitan/Titan.JPG);
