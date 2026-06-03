@@ -1,0 +1,119 @@
+<!Doctype html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Titan</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    </head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="imagenestitan/Logotitan.png" alt="Logo de Titan Logistics"
+            width="100px">
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#cotizacion">Cotización</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#unete">Únete a nosotros</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="overlay">
+
+            <h1>
+                TITÁN LOGISTICS
+            </h1>
+            <h2>Fuerza en cada kilómetro</h2>
+            <a class="btn"
+            href="#cotizacion"
+            >
+                Solicitar cotización
+            </a>
+
+        </div>
+    </section>
+    <section id="servicios" class="services">
+                <h2>
+                    Nuestros Servicios
+                </h2>
+                <div class="services-container">
+                    <div class="service-card">
+                        <img src="./imagenestitan/cajaseca.JPG" alt="Caja Seca">
+                        <h3>Caja Seca</h3>
+                        <p>Útil para transportar productos diversos</p>
+                    </div>
+               
+
+                    <div class="service-card">
+                        <img src="./imagenestitan/lowbody.JPG" alt="Lowboy">
+                        <h3>Lowbody</h3>
+                        <p>Ideal para transportar maquinaria pesada</p>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="./imagenestitan/retro.JPG" alt="Retro excavadora">
+                        <h3>Retro excavadora</h3>
+                        <p>Perfecto para limpiar áreas y remover cascajo</p>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="./imagenestitan/gondola.JPG" alt="Góndola">
+                        <h3>Góndola</h3>
+                        <p>Perfecta para el transporte de mercancías a granel</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="cotizacion" class="cotizacion">
+                <h2>
+                    Solicita tu Cotización
+                </h2>
+                <form class="cotizacion-form">
+                    <input
+                        type="text"
+                        placeholder="Nombre"
+                        required
+                    >
+                    <input
+                        type="email"
+                        placeholder="Correo Electrónico"
+                        required
+                    >
+                    <input
+                        type="tel"
+                        placeholder="Número de Teléfono"
+                        required
+                    >
+                    <select required>
+                        <option value="">Tipo de Servicio</option> 
+                        <option value="caja-seca">Caja Seca</option>
+                        <option value="lowboy">Lowboy</option>
+                        <option value="retro-excavadora">Retro excavadora</option>
+                        <option value="gondola">Góndola</option>
+                    </select>
+                    <textarea placeholder="Describe tu carga" rows="5" required></textarea>
+                    <button type="submit">
+                        Enviar Cotización
+                    </button>
+                    
+                </form>
+            </section>
+</body>
+</html>    
+
