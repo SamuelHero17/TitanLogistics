@@ -222,7 +222,21 @@ btn:hover {
     text-align: right;
 
 }
-
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+width:60px;
+height:60px;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+font-size:30px;
+color:white;
+text-decoration:none;
+}
 @media (max-width: 768px) {
     .navbar {
         padding: 10px 15px;
