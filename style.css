@@ -197,7 +197,7 @@ btn:hover {
         grid-template-columns: 1fr !important;
         padding: 0 20px;
     }
-    .servicio-card img {
+    .service-card img {
         height: 180px;
     }
     .btn {
