@@ -87,7 +87,7 @@ btn:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 10px 20px;
     background: rgba(0, 0, 0, .5);
     z-index: 1000;
 }
@@ -100,13 +100,14 @@ btn:hover {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 15px;
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
     font-weight: 500;
+    font-size: 0.95rem;
 }
 
 .nav-links a:hover {
@@ -230,6 +231,7 @@ btn:hover {
         padding: 0 20px;
     }
     .service-card img {
+        background-color: #ff6a00;
         height: 180px;
     }
     .btn {
