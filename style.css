@@ -114,6 +114,15 @@ btn:hover {
     color: #ff6a00;
 }
 
+.services{
+    padding: 90% 20px;
+    background-image: url(imagenestitan/unidades.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
 .services h2{
     text-align: center;
     font-size: 2.5rem;
@@ -128,7 +137,7 @@ btn:hover {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 30px;
     padding: 60px;
 }
@@ -160,7 +169,7 @@ btn:hover {
     color: #555;
 }
 .cotizacion {
-    padding: 80px 20px;
+    padding: 90% 20px;
     background-image: url(imagenestitan/unidadestitan.JPG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -201,7 +210,18 @@ btn:hover {
 .cotizacion-form button:hover {
     background: #ff8c32;
 }
+.contacto{
+    background-image: url(imagenestitan/titancontacto.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 90% 20px;
+}
+.contacto h2{
+    font-size: 1remx;
+    text-align: right;
 
+}
 
 @media (max-width: 768px) {
     .navbar {
@@ -240,9 +260,25 @@ btn:hover {
         padding: 12px 20px;
         font-size: 1rem;
     }
+    .services{
+    padding: 90% 20px;
+    background-image:none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
 
     .cotizacion {
         padding: 50px 15px;
+    }
+    .cotizacion {
+    padding: 90% 20px;
+    background-image: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
     }
 
     .cotizacion h2 {
