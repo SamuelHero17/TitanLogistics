@@ -4,6 +4,15 @@ document
 
 e.preventDefault();
 
+const nombre =
+document.getElementById("nombre").value;
+
+const origen =
+document.getElementById("origen").value;
+
+const destino =
+document.getElementById("destino").value;
+
 const km =
 Number(
 document.getElementById("kilometros").value
@@ -18,9 +27,16 @@ const total = km * tarifa;
 
 document.getElementById("resultado").innerHTML =
 `
-Cotización estimada:
+<p>
+${nombre},
+tu cotización estimada para la ruta
+${origen} → ${destino}
+es de:
+</p>
 
-$${total.toLocaleString()} MXN
+<h2>
+$${total.toLocaleString("es-MX")} MXN
+</h2>
 `;
 
 });

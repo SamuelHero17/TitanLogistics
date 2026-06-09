@@ -1,23 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titan Logistics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+<title>Titan Logistics</title>
 
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
 <header>
-
-    <img src="imagenestitan/Logotitan.png" alt="Logo de Titan Logistics" class="logo">
+    <img src="imagenestitan/Logotitan.png" alt="Titan Logistics" class="logo">
 
     <nav>
         <a href="#inicio">Inicio</a>
@@ -25,63 +23,82 @@
         <a href="#cobertura">Cobertura</a>
         <a href="#cotizador">Cotizar</a>
         <a href="#contacto">Contacto</a>
-        <a href="#joinus">Únete a nosotros</a>
+        <a href="#joinus">Únete</a>
     </nav>
 </header>
 
 <section id="inicio" class="hero">
-    <br>
-    <img src="imagenestitan/Titan.JPG" alt="Imagen de fondo" class="hero-image">
 
+    <img src="imagenestitan/Titan.JPG" alt="Titan Logistics" class="hero-image">
 
+    <h1>Titan Logistics</h1>
 
-   
+    <p>
+        Soluciones de logística y transporte de carga
+        en toda la República Mexicana.
+    </p>
+
     <a href="#cotizador" class="btn">
         Solicitar Cotización
-
     </a>
 
-    <br><br>
-
-    <h3>contacto@titanlogistics.com.mx</h3>
-    
-<br>
-    <h4>Soluciones de logistica y transporte de carga en toda la República Mexicana</h4>
-    <br><br><br><br>
-      <h1><hr>¿Quienes somos?<hr></h1>
-    <br>
-    <h3>En Titan Logistics, nos dedicamos a conectar a nuestros clientes con unidades de transporte confiables para proyectos de construccion, mineria, acarreo de materiales y carga especializada.<br>Nuesto compromiso es brindar soluciones eficientes, seguras y rentables.</h3>
-    <br><br>
-    <br><br><br><br><br><br><br><br><br>
-    <br>
-</section>
-<br><br><br><br><br><br><br><br>
-<section id="cobertura" class="cobertura">
-    <br><br>
-    <h1>Cobertura</h1>
-    <br>
-    <h2>En Titan Logistics, ofrecemos servicios de transporte y logística a lo largo del país.</h2>
-
-<br><br><br><br><br><br><br><br><br>
-    <br>
-    
 </section>
 
-<section id="servicios" class="serv">
+<section id="servicios" class="services">
 
-    <h1>Servicios</h1>
-    <h2>Buscamos siempre brindar la mejor calidad en el servicio de transporte de cargas de diversos tipos. </h2>
-    
-    
-    <br><br><br><br><br><br><br><br><br>
-    <br>
+    <h2>Nuestros Servicios</h2>
+
+    <p class="subtitulo">
+        Transporte especializado para proyectos de construcción,
+        minería, maquinaria y carga general.
+    </p>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <img src="imagenestitan/gondola.jpg" alt="Góndola">
+            <h3>Góndola</h3>
+            <p>Materiales de construcción, minería y residuos.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="imagenestitan/lowbody.jpg" alt="Lowboy">
+            <h3>Lowboy</h3>
+            <p>Maquinaria pesada y equipo sobredimensionado.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="imagenestitan/cajaseca.JPG" alt="Caja Seca">
+            <h3>Caja Seca</h3>
+            <p>Protección para mercancía y productos sensibles.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="imagenestitan/retro.jpg" alt="Carga Especializada">
+            <h3>Carga Especializada</h3>
+            <p>Proyectos especiales y transporte sobredimensionado.</p>
+        </div>
+
+    </div>
 
 </section>
 
-<section id="cotizador" class="s">
+<section id="cobertura" class="banner">
 
-    <h1>Cotiza tu servicio</h1>
-    <br>
+    <img src="imagenestitan/cobertura.JPG" alt="Cobertura">
+
+    <div class="contenido-banner">
+        <h2>Cobertura Nacional</h2>
+        <p>
+            Operamos en toda la República Mexicana.
+        </p>
+    </div>
+
+</section>
+
+<section id="cotizador" class="cotizador">
+
+    <h2>Cotiza tu Servicio</h2>
 
     <form id="cotizacionForm">
 
@@ -96,17 +113,15 @@
         <input type="number" id="kilometros" placeholder="Kilómetros" required>
 
         <select id="unidad">
-
             <option value="28">Caja Seca</option>
             <option value="30">Quinta Rueda</option>
             <option value="32">Plataforma</option>
             <option value="40">Góndola</option>
             <option value="45">Lowboy</option>
-
         </select>
 
         <button type="submit">
-            Calcular
+            Calcular Cotización
         </button>
 
     </form>
@@ -116,38 +131,27 @@
 </section>
 
 <section id="contacto" class="contacto">
-    <h1>Contacto</h1>
-    
 
-    <h2>
-        contacto@titanlogistics.com.mx
-    </h2>
-<br><br><br><br><br><br><br><br><br>
-    <br>
+    <img src="imagenestitan/titancontacto.JPG" alt="Contacto">
+
+    <h2>contacto@titanlogistics.com.mx</h2>
+
 </section>
 
 <section id="joinus" class="joinus">
-    <h1>Únete a nosotros</h1>
-     <a class="wsp"
-    href="https://wa.me/522203311253?text=Hola.%20Quiero%20unirme%20al%20equipo%20de%20Titan%20Logistics.%20¿Podrían%20proporcionarme%20más%20información%20sobre%20las%20oportunidades%20laborales?">
-        <i class="fab fa-whatsapp"></i>
-         Unirme al equipo
 
+    <img src="imagenestitan/joinus.JPG" alt="Únete">
+
+    <a class="btn"
+    href="https://wa.me/522203311253">
+        Unirme al equipo
     </a>
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br>
-</section>
 
-<section class="unete">
-   <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br>
 </section>
 
 <a
 class="whatsapp"
-href="https://wa.me/522203311253?text=Hola%20Titan%20Logistics,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios."
+href="https://wa.me/522203311253"
 target="_blank">
 
 <i class="fab fa-whatsapp"></i>
