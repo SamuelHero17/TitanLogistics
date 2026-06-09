@@ -224,5 +224,12 @@ font-size:2rem;
 .cotizador h2{
 font-size:2rem;
 }
-
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
 }
